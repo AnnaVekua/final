@@ -1,0 +1,31 @@
+.header-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.navigation {
+    width: 100%;
+    margin: 0 auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(54,42,21,1) 66%, rgba(210,182,17,1) 100%); 
+}
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+    font-weight: 900;
+    
+}
+.nav-li {
+    color: aliceblue;
+}
+.img-block1 {
+    width: 100%;
+    position: relative;
+}
+.title {
+    position: absolute;
+}
