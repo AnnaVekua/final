@@ -22,10 +22,17 @@
 .nav-li {
     color: aliceblue;
 }
-.img-block1 {
+.footer-container {
     width: 100%;
-    position: relative;
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(54,42,21,1) 66%, rgba(210,182,17,1) 100%);
 }
-.title {
-    position: absolute;
+.footer-h2 {
+    color: white;
+}
+.footer-p {
+    color: white;
 }
