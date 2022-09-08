@@ -1,92 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="wine shop">
+    <meta name="keywords" content="wine, bottle, alcohol, rum, champagne,shop, online shop">
+    <meta name="author" content="Ana Vekua">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>wine brands</title>
 </head>
+
 <body>
     <!--header section-->
     <div class="main-container">
-    <header>
-        <div class="header-container">
-            <nav class="navigation">
-            <ul class="nav-ul">
-                <li>
-                    <a class="nav-li" href="index.html">LUC BELAIRE FRANCE</a>
-                </li>
-                <li>
-                    <a class="nav-li" href="Bumbu.html">BUMBU RUM COMPANY</a>
-                </li>
-                <li>
-                    <a class="nav-li" href="Mcqueen.html">MCQUEEN AND THE VIOLET FOG</a>
-                    </li>
-                <li>
-                    <a class="nav-li" href="Villon.html">VILLON</a>
-                </li>
-                <li>
-                    <a class="nav-li" href="ShopNow.html">SHOP NOW</a>
-                </li>
-                <li>
-                    <a class="nav-li" href="Contactspage.html">CONTACT US</a>
-                </li>
-            </ul>
-        </nav>
-        </div>
-    </header>
-    <section>
-        <div class="title">
-            <h1 class="search"></h1>
-            <form action="">
-            <div class="form-wraper">
-                <label for="brands">CHOOSE A BRAND</label>
-                <select name="brands" id="brands">
-                    <option value="belaire">LUC BELAIRE FRANCE</option>
-                    <option value="BUMBU">BUMBU RUM COMPANY</option>
-                    <option value="MCQUEEN">MCQUEEN AND THE VIOLET FOG</option>
-                    <option value="VILLON">VILLON</option>
-                </select>
+        <div class="wrapper">
+            <header>
+                <div class="header-container">
+                    <ul class="nav-ul">
+                        <li>
+                            <a class="nav-li" href="index.html">LUC BELAIRE FRANCE</a>
+                        </li>
+                        <li>
+                            <a class="nav-li" href="Bumbu.html">BUMBU RUM COMPANY</a>
+                        </li>
+                        <li>
+                            <a class="nav-li" href="Mcqueen.html">MCQUEEN AND THE VIOLET FOG</a>
+                        </li>
+                        <li>
+                            <a class="nav-li" href="Villon.html">VILLON</a>
+                        </li>
+                        <li>
+                            <a class="nav-li" href="ShopNow.html">SHOP NOW</a>
+                        </li>
+                        <li>
+                            <a class="nav-li" href="Contactspage.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+        <section>
+            <div class="form-container">
+                <form class="form">
+                    <div class="title">
+                        <h1 class="search">Search</h1>
+                        <form action="">
+                            <div class="form-wrapper">
+                                <label for="brands">CHOOSE A BRAND</label>
+                                <select name="brands" id="brands">
+                                    <option value="belaire">LUC BELAIRE FRANCE</option>
+                                    <option value="BUMBU">BUMBU RUM COMPANY</option>
+                                    <option value="MCQUEEN">MCQUEEN AND THE VIOLET FOG</option>
+                                    <option value="VILLON">VILLON</option>
+                                </select>
+                            </div>
+                        </form>
+                        <div class="form-wrapper">
+                            <label for="item">CHOOSE AN ITEM</label>
+                            <select name="item" id="select">
+                                <option value="rosé">rosé</option>
+                                <option value="luxe">luxe</option>
+                                <option value="luxe rosé">luxe rosé</option>
+                                <option value="bleu">bleu</option>
+                                <option value="fantôme">fantôme</option>
+                                <option value="BUMBU ORIGINAL">BUMBU ORIGINAL</option>
+                                <option value="BUMBU XO">BUMBU XO</option>
+                                <option value="BUMBU CREME">BUMBU CRÈME</option>
+                                <option value="HANDCRAFTED GIN">HANDCRAFTED GIN</option>
+                                <option value="VILLON OLD FASHIONED">VILLON OLD FASHIONED</option>
+                                <option value="VILLON 75">VILLON 75</option>
+                                <option value="SIDECAR">SIDECAR</option>
+                            </select>
+                        </div>
+                        <div class="form-wrapper">
+                            <label for="mail">E-MAIL</label>
+                            <input type="text" name="YOUR E-MAIL" id="mail" placeholder="Your e-mail..">
+                        </div>
+                        <div class="form-wrapper">
+                            <label for="phone">TEL:</label>
+                            <input type="text" name="phone" id="phone" placeholder="Your phone number..">
+                        </div>
+                        <div class="form-wrapper">
+                            <label for="adress">ADDRESS</label>
+                            <input type="text" name="YOUR ADDRESS.." id="adress" placeholder="Your address..">
+                        </div>
+                        <div class="form-wrapper">
+                            <input class="submit" id="submit" type="submit" value="buy">
+                        </div>
+                </form>
             </div>
-            </form>
-            <div class="form-wraper">
-                <label for="item">CHOOSE AN ITEM</label>
-                <select name="item" id="select">
-                    <option value="rosé">rosé</option>
-                    <option value="luxe">luxe</option>
-                    <option value="luxe rosé">luxe rosé</option>
-                    <option value="bleu">bleu</option>
-                    <option value="fantôme">fantôme</option>
-                    <option value="BUMBU ORIGINAL">BUMBU ORIGINAL</option>
-                    <option value="BUMBU XO">BUMBU XO</option>
-                    <option value="BUMBU CREME">BUMBU CRÈME</option>
-                    <option value="HANDCRAFTED GIN">HANDCRAFTED GIN</option>
-                    <option value="VILLON OLD FASHIONED">VILLON OLD FASHIONED</option>
-                    <option value="VILLON 75">VILLON 75</option>
-                    <option value="SIDECAR">SIDECAR</option>
-                </select>
-            </div>
-            <div class="form-wraper">
-                <label for="mail">E-MAIL</label>
-                <input type="text" name="YOUR E-MAIL" id="mail" placeholder="YOUR E-MAIL..">
-            </div>
-            <div class="form-wraper">
-                <label for="phone">TEL:</label>
-                <input type="text" name="phone" id="phone" placeholder="YOUR PHONE NUMBER..">
-            </div>
-            <div class="form-wraper">
-                <label for="adress">ADDRESS</label>
-                <input type="text" name="YOUR ADDRESS.." id="adress" placeholder="YOUR ADDRESS..">
-            </div>
-            <div class="form-wraper">
-                <input type="submit" value="buy">
-            </div>
-        </div>
+    </div>
     </section>
+    <footer>
+        <div class="footer-container">
+            <div class="left-block">
+                <h2 class="footer-h2">ABOUT US</h2>
+                <P class="footer-p">Sovereign Brands are family-owned,
+                    family-run wine and spirits company dedicated to the creation and development of unique, premium
+                    beverage brands.
+                </P>
+            </div>
+            <div class="middle-block">
+                <h2 class="footer-h2">Brands</h2>
+                <ul class="footer-ul">
+                    <li class="footer-li">
+                        <p class="footer-p"><a href="index.html">LUC BELAIRE FRANCE</a></p>
+                    </li>
+                    <li class="footer-li">
+                        <p class="footer-p"><a href="Bumbu.html">BUMBU RUM COMPANY</a></p>
+                    </li>
+                    <li class="footer-li">
+                        <p class="footer-p"><a href="Mcqueen.html">MCQUEEN AND THE VIOLET FOG</a></p>
+                    </li>
+                    <li class="footer-li">
+                        <p class="footer-p"><a href="Villon.html">VILLON</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-block">
+                <h2 class="footer-h2">contacts</h2>
+                <ul class="footer-ul">
+                    <li class="footer-li">
+                        <i class="fa-solid fa-mobile"></i>
+                        <p class="footer-p"><a href="tel:+1 212-343-8366">+1 212-343-8366</a></p>
+                    </li>
+                    <li class="footer-li">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="footer-p"><a href="mailto:sovereignbrands@gmail.com">sovereignbrands@gmail.com</a>
+                        </p>
+                    </li>
+                    <li class="footer-li">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="footer-p"><a
+                                href="https://www.google.com/maps/place/81+Greene+St+lvl+2,+New+York,+NY+10012,+USA/@40.7237005,-74.0007476,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2598c1d3c0001:0x3372d3939dd0e27c!8m2!3d40.7237005!4d-74.0007476">81
+                                Greene St # 2, New York, NY 10012, United States</a></p>
+                    </li>
+                </ul>
+            </div>
+            <div class="social-icons">
+                <h2 class="footer-h2">Social Media</h2>
+                <div class="social">
+                    <a
+                        href="https://www.instagram.com/explore/locations/1017221712/united-states/new-york-new-york/sovereign-brands/">
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/officialsovereignbrands/">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                </div>
+                <div class="social">
+                    <a href="https://www.tiktok.com/discover/sovereign-brands-cocktail-hour?lang=en">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="copy-right">
+                <h2 class="footer-h2">Legal</h2>
+                <ul class="footer-ul">
+                <li class="footer-li">
+                    <p class="footer-p"><a href="#">Terms and Conditions</a></p>
+                </li>
+                <li class="footer-li">
+                <p class="footer-p"><a href="#"></a>Privacy Policy</p>
+                </li>
+                <li class="footer-li">
+                <p class="footer-p">&copy;All Rights Reserved</p>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     </div>
 </body>
+<script src="script.js"></script>
+
 </html>
