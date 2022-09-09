@@ -52,27 +52,27 @@ a {
 
 
 .bottle {
-    background-image: url('/images/bottle.bmp');
+    background-image: url('./images/bottle.bmp');
 }
 
 .bottle2 {
-    background-image: url('/images/bottle2.bmp');
+    background-image: url('./images/bottle2.bmp');
 }
 
 .bottle3 {
-    background-image: url('/images/bottle3.bmp');
+    background-image: url('./images/bottle3.bmp');
 }
 
 .bottle4 {
-    background-image: url('/images/bottle4.bmp');
+    background-image: url('./images/bottle4.bmp');
 }
 
 .bottle5 {
-    background-image: url('/images/bottle5.bmp');
+    background-image: url('./images/bottle5.bmp');
 }
 
 .bottle6 {
-    background-image: url('/images/bottle6.bmp');
+    background-image: url('./images/bottle6.bmp');
 }
 
 
@@ -116,47 +116,47 @@ a {
 }
 
 .bumbu {
-    background-image: url('/images/bumbu.jpg');
+    background-image: url('./images/bumbu.jpg');
 }
 
 .bumbu1 {
-    background-image: url('/images/bumbu1.jpg');
+    background-image: url('./images/bumbu1.jpg');
 }
 
 .bumbu2 {
-    background-image: url('/images/bumbu2.jpg');
+    background-image: url('./images/bumbu2.jpg');
 }
 
 .bumbu4 {
-    background-image: url('/images/bumbu4.webp');
+    background-image: url('./images/bumbu4.webp');
 }
 
 .mcqueen3 {
-    background-image: url('/images/mcqueen3.jpg');
+    background-image: url('./images/mcqueen3.jpg');
 }
 
 .mcqueen4 {
-    background-image: url('/images/mcqueen4.jpg');
+    background-image: url('./images/mcqueen4.jpg');
 }
 
 .mcqueen2 {
-    background-image: url('/images/mcqueen2.jpg');
+    background-image: url('./images/mcqueen2.jpg');
 }
 
 .mcqueen {
-    background-image: url('/images/mcqueen.jpg');
+    background-image: url('./images/mcqueen.jpg');
 }
 
 .villon {
-    background-image: url('/images/villon.jpg');
+    background-image: url('./images/villon.jpg');
 }
 
 .villon2 {
-    background-image: url('/images/villon2.jpg');
+    background-image: url('./images/villon2.jpg');
 }
 
 .villon3 {
-    background-image: url('/images/villon3.jpg');
+    background-image: url('./images/villon3.jpg');
 }
 
 .footer-container {
