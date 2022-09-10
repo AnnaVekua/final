@@ -301,7 +301,10 @@ margin-bottom: 20px
     font-size: 25px;
 }
 
-
+.maps-block {
+    width: 100%;
+    text-align: center;
+}
     
 
 .map {
