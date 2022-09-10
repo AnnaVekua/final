@@ -197,9 +197,13 @@ a {
     margin-bottom: 5px;
     color: var(--white);
 }
+.margin:not (:last-child) {
+margin-bottom: 20px
+}
 
 .left-block {
-    width: 20%;
+   max-width: 300px;
+   width: 100%;
 }
 
 .social {
@@ -263,12 +267,15 @@ a {
 }
 
 .contacts-container {
+    max-width: 100%;
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(54, 42, 21, 1) 66%, rgba(210, 182, 17, 1) 100%);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: calc(100vh - 100px);
+
 }
 
 .contacts-info {
@@ -279,6 +286,7 @@ a {
     margin-bottom: 5px;
 }
 
+
 .contacts-title {
     color: rgb(151, 147, 26);
     text-transform: uppercase;
@@ -287,7 +295,8 @@ a {
 }
 
 .maps-block {
-    margin: 30px;
+    max-width: 1000px;
+    
 }
 
 ::-webkit-scrollbar {
@@ -361,4 +370,41 @@ a {
         align-items: center;
     }
 
+.form {
+    background-color: rgba(0, 0, 0, 0.248);
+    width: 300px;
+    display: flex;
+    justify-content: center;
 }   
+.search {
+    font-size: 20px;
+}
+.form-wrapper {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-block {
+    max-width: 300px;
+    width: 100%;
+}
+.social-icons {
+    max-width: 300px;
+    width: 100%;
+
+}
+.copy-right {
+    max-width: 300px;
+    width: 100%;
+}
+.contacts-container {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(54, 42, 21, 1) 66%, rgba(210, 182, 17, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+
+}
+}
